@@ -546,7 +546,7 @@ header .menu-btn {
      border-bottom: 2px solid black;
      border-right: 2px solid black;
      transform: rotate(45deg);
-     margin: -10px;
+     margin: -100px;
      animation: arrow 2s infinite;
  }
 
