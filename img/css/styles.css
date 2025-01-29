@@ -79,7 +79,7 @@ body{
     box-shadow: var(--clr--shad);
     border-radius: 50%;
     pointer-events: none;
-    transition: all 200ms ease-out;
+    /* transition: all 20ms ease-out; */
     z-index: 1;
    
 }
@@ -331,7 +331,7 @@ p {
 }
 .pupu{
     color: transparent;
-    background-image: linear-gradient(to right , #ffff4d,#282e3c);
+    background-image: linear-gradient(to right , #fdff00,#988829,#242424,#282e3c);
     background-size: 300%;
      -webkit-background-clip: text;
     
@@ -350,7 +350,7 @@ h1 span{
 .colors {
    margin-top: 0px;
     color: transparent;
-    background-image: linear-gradient(to right , #4dc6ff,#DD2A7B,#8134AF);
+    background-image: linear-gradient(to right , #4dc6ff,#aa23c8,#57068c);
     
     -webkit-background-clip: text;
     
