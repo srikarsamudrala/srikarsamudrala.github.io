@@ -104,7 +104,9 @@ Gray: #634ED5  */
                     /* Borders End
 /*  */
 
-
+* {
+    cursor: auto !important; /* Added to enforce default cursor */
+}
 
 
 html {
@@ -190,7 +192,7 @@ a:hover {
 a {
     text-decoration: none;
     color: #6699ff;
-    cursor: pointer;
+    cursor: auto !important; /* Added to enforce default cursor */
 }
 
 
@@ -286,7 +288,7 @@ button {
     font-size: 1rem;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
-    cursor: pointer;
+    cursor: auto !important; 
     transition: 0.8s;
 }
 
@@ -416,7 +418,7 @@ header .menu-btn {
     header .menu-icon {
         padding: 28px 0px 28px 20px;
         position: absolute;
-        cursor: pointer;
+        cursor: auto !important; 
         right: 10%;
     }
 
@@ -1252,7 +1254,7 @@ footer p {
     padding: 8px 16px;
     border-radius: 6px;
     background: #3e2093;
-    cursor: pointer;
+    cursor: auto !important; 
     transition: all 0.3s ease;
   }
   .button input[type="button"]:hover{

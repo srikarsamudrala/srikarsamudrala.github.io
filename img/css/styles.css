@@ -71,7 +71,7 @@
 body{
     cursor: none;
 }
-.cursor1{
+/* .cursor1{
     width: 20px;
     height: 20px;
     position: fixed;
@@ -80,11 +80,11 @@ body{
     border-radius: 50%;
     pointer-events: none;
     /* transition: all 20ms ease-out; */
-    z-index: 1;
+    /* z-index: 1;
    
-}
+} */ */
 
-.cursor-inner{
+/* .cursor-inner{
     width: 5px;
     height: 5px;
     position: fixed;
@@ -94,7 +94,7 @@ body{
     border-radius: 50%;
     transition: width .3s, height .3s;
     z-index: 1;
-}
+} */
 
 .click {
     width: 50px;
@@ -587,6 +587,7 @@ p{
         width: 0px;
     }
     .cursor-inner{
+      
         width: 0px;
         color: var(--clr-dark);
     }
